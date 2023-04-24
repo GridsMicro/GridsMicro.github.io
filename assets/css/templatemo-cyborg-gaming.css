@@ -91,7 +91,7 @@ a {
   text-decoration: none !important;
 }
 a:hover {
-	color: #F99;
+	color: rgb(153, 255, 158);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -123,13 +123,13 @@ Global Styles
 */
 html,
 body {
-  background: #1f2122;
+  background: #201f22;
   font-family: 'Poppins', sans-serif;
 }
 
 body .page-content {
   margin-top: 110px;
-  background-color: #27292a;
+  background-color: #28272a;
   padding: 60px;
   border-radius: 23px;
 }
@@ -142,12 +142,12 @@ p {
 }
 
 ::selection {
-  background: #e75e8d;
+  background: #8560ec;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #e75e8d;
+  background: #8560ec;
   color: #fff;
 }
 
@@ -155,11 +155,13 @@ p {
 	max-width: 80px; 
 	border-radius: 23px;
 }
-
+/*
+Block Header
+*/
 .main-button a {
   font-size: 14px;
   color: #fff;
-  background-color: #e75e8d;
+  background-color: #8560ec;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 25px;
@@ -173,14 +175,16 @@ p {
 
 .main-button a:hover {
   background-color: #fff;
-  color: #e75e8d;
+  color: #8560ec;
 }
-
+/*
+Download
+*/
 .main-border-button a {
   font-size: 14px;
-  color: #ec6090;
+  color: #8560ec;
   background-color: transparent;
-  border: 1px solid #ec6090;
+  border: 1px solid #8560ec;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 25px;
@@ -195,26 +199,29 @@ p {
 .main-border-button a:hover {
   border-color: #fff;
   background-color: #fff;
-  color: #e75e8d;
+  color: #8560ec;
 }
 
 .border-no-active a {
-  border-color: #666;
-  color: #666;
+  border-color: #666666;
+  color: #666666;
 }
 
 .border-no-active a:hover{
-  border-color: #666;
-  color: #666;
+  border-color: #666666;
+  color: #666666;
   background-color: transparent;
 }
 
 section {
   margin-top: 120px;
 }
-
+/*
+Most Popular Right Now
+Your Gaming Library
+*/
 .heading-section h4 {
-  color: #ec6090;
+  color: #60ec67;
   font-size: 34px;
   text-decoration: none;
   margin-bottom: 30px;
@@ -238,7 +245,7 @@ Pre-loader Style
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.99);
+  background-color: rgba(0, 0, 0, 0.99);
   display: -webkit-box;
   display: flex;
   -webkit-box-align: center;
@@ -341,7 +348,7 @@ Header Style
   top: 0!important;
   left: 0;
   right: 0;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.15)!important;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15)!important;
   -webkit-transition: all .5s ease 0s;
   -moz-transition: all .5s ease 0s;
   -o-transition: all .5s ease 0s;
@@ -476,16 +483,20 @@ Header Style
 .background-header .main-nav .nav li.has-sub ul.sub-menu li:last-child a:hover {
   padding-left: 25px !important;
 }
-
+/*
+Main Menu
+*/
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #e75e8d !important;
+  color: #8560ec !important;
 }
-
+/*
+Main Menu Profile
+*/
 .header-area .main-nav .nav li:last-child:hover a,
 .header-area .main-nav .nav li:last-child a.active {
   color: #fff !important;
-  background-color: #e75e8d !important;
+  background-color: #8560ec !important;
 }
 
 .background-header .main-nav .nav li:hover a,
@@ -523,7 +534,7 @@ Header Style
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #e75e8d;
+  background-color: #9e5ee7;
   display: block;
   position: absolute;
   width: 30px;
@@ -534,7 +545,7 @@ Header Style
 .background-header .main-nav .menu-trigger span,
 .background-header .main-nav .menu-trigger span:before,
 .background-header .main-nav .menu-trigger span:after {
-  background-color: #e75e8d;
+  background-color: #9e5ee7;
 }
 
 .header-area .main-nav .menu-trigger span:before,
@@ -543,7 +554,7 @@ Header Style
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #e75e8d;
+  background-color: #9e5ee7;
   display: block;
   position: absolute;
   width: 30px;
@@ -554,7 +565,7 @@ Header Style
 
 .background-header .main-nav .menu-trigger span:before,
 .background-header .main-nav .menu-trigger span:after {
-  background-color: #e75e8d;
+  background-color: #9e5ee7;
 }
 
 .header-area .main-nav .menu-trigger span:before,
@@ -595,11 +606,11 @@ Header Style
   -ms-transform: translateY(6px) translateX(1px) rotate(45deg);
   -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
   transform: translateY(6px) translateX(1px) rotate(45deg);
-  background-color: #e75e8d;
+  background-color: #9e5ee7;
 }
 
 .background-header .main-nav .menu-trigger.active span:before {
-  background-color: #e75e8d;
+  background-color: #9e5ee7;
 }
 
 .header-area .main-nav .menu-trigger.active span:after {
@@ -607,11 +618,11 @@ Header Style
   -ms-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   -webkit-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   transform: translateY(-6px) translateX(1px) rotate(-45deg);
-  background-color: #e75e8d;
+  background-color: #9e5ee7;
 }
 
 .background-header .main-nav .menu-trigger.active span:after {
-  background-color: #e75e8d;
+  background-color: #9e5ee7;
 }
 
 .header-area.header-sticky {
@@ -662,7 +673,7 @@ Header Style
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #e75e8d!important;
+    color: #9e5ee7!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -724,13 +735,13 @@ Header Style
   }
   .header-area .main-nav .nav li a:hover {
     background: #fff !important;
-    color: #e75e8d!important;
+    color: #9e5ee7!important;
   }
   .header-area .main-nav .nav li:last-child a img {
     display: none;
   }
   .header-area .main-nav .nav li:last-child a:hover {
-    color: #ec6090 !important;
+    color: #a160ec !important;
     background-color: transparent !important;
   }
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
@@ -796,7 +807,7 @@ Banner Style
 
 .main-banner h4 em {
   font-style: normal;
-  color: #ec6090;
+  color: #a160ec;
 }
 
 /* 
@@ -858,9 +869,11 @@ Most Popular Style
 .most-popular .item ul li:first-child i {
   color: yellow;
 }
-
+/*
+icon download
+*/
 .most-popular .item ul li:last-child i {
-  color: #ec6090;
+  color: #a160ec;
 }
 
 .most-popular .main-button {
@@ -953,7 +966,7 @@ footer p a {
 }
 
 footer p a:hover {
-  color: #ec6090;
+  color: #a160ec;
 }
 
 /* 
@@ -992,7 +1005,7 @@ Featured Games Style
 .featured-games .item .thumb .hover-effect h6 {
   background-color: rgba(31,33,34,0.95);
   display: inline-block;
-  color: #ec6090;
+  color: #a160ec;
   font-weight: 600;
   font-size: 14px;
   padding: 10px 20px;
@@ -1033,7 +1046,7 @@ Featured Games Style
 }
 
 .featured-games .item ul li:last-child i {
-  color: #ec6090;
+  color: #a160ec;
 }
 
 .featured-games .owl-nav {
@@ -1063,7 +1076,7 @@ Featured Games Style
 .featured-games .owl-nav .owl-prev span:hover,
 .featured-games .owl-nav .owl-next span:hover {
   opacity: 1;
-  color: #ec6090;
+  color: #a160ec;
 }
 
 .top-downloaded {
@@ -1113,7 +1126,7 @@ Featured Games Style
   height: 46px;
   text-align: center;
   line-height: 46px;
-  color: #ec6090;
+  color: #a160ec;
   background-color: #27292a;
   border-radius: 50%;
 }
@@ -1130,7 +1143,7 @@ Featured Games Style
 
 .top-downloaded .text-button a {
   font-weight: 600;
-  color: #ec6090;
+  color: #a160ec;
   font-size: 15px;
 }
 
@@ -1204,7 +1217,7 @@ Live Stream Style
 
 .live-stream .hover-effect .live a { 
   position: absolute;
-  background-color: rgba(236, 96, 144, 0.9);
+  background-color: rgba(161, 96, 236, 0.9);
   padding: 5px 10px;
   border-radius: 23px;
   color: #fff;
@@ -1226,7 +1239,7 @@ Live Stream Style
 }
 
 .live-stream .hover-effect ul li a {
-  background-color: rgba(236, 96, 144, 0.9);
+  background-color: rgba(161, 96, 236, 0.9);
   padding: 5px 10px;
   border-radius: 23px;
   color: #fff;
@@ -1239,7 +1252,7 @@ Live Stream Style
 
 .live-stream span i {
   color: #fff;
-  background-color: #ec6090;
+  background-color: #a160ec;
   border-radius: 50%;
   font-size: 12px;
   width: 20px;
@@ -1252,7 +1265,7 @@ Live Stream Style
 
 .live-stream span {
   font-size: 14px;
-  color: #ec6090;
+  color: #a160ec;
 }
 
 .live-stream .down-content h4 {
@@ -1292,7 +1305,7 @@ Featured Banner Style
   display: inline-block;
   text-align: center;
   line-height: 46px;
-  color: #ec6090;
+  color: #a160ec;
 }
 
 /* 
@@ -1352,7 +1365,7 @@ Game Details Style
 }
 
 .game-details .content .left-info ul li:last-child i {
-  color: #ec6090;
+  color: #a160ec;
 }
 
 .game-details .content .right-info {
@@ -1380,7 +1393,7 @@ Game Details Style
 } 
 
 .game-details .content .right-info ul li i {
-  color: #ec6090;
+  color: #a160ec;
 }
 
 .game-details .main-border-button {
@@ -1447,7 +1460,7 @@ Other Related Style
 }
 
 .other-games ul li:last-child i {
-  color: #ec6090;
+  color: #a160ec;
 }
 
 /* 
@@ -1490,13 +1503,13 @@ Top Streamers Style
 .top-streamers ul li h6 {
   display: inline;
   font-size: 14px;
-  color: #ec6090;
+  color: #a160ec;
   font-weight: 400;
 }
 
 .top-streamers ul li h6 i {
   color: #fff;
-  background-color: #ec6090;
+  background-color: #a160ec;
   border-radius: 50%;
   font-size: 12px;
   width: 20px;
@@ -1530,7 +1543,7 @@ Profile Style
 .main-profile .main-info span {
   font-size: 14px;
   color: #fff;
-  background-color: #e75e8d;
+  background-color: #a160ec;
   padding: 8px 20px;
   display: inline-block;
   border-radius: 25px;
@@ -1566,7 +1579,7 @@ Profile Style
 .main-profile ul li span {
   float: right;
   font-weight: 500;
-  color: #ec6090;
+  color: #a160ec;
 }
 
 .main-profile ul li:last-child {
@@ -1608,7 +1621,7 @@ Profile Style
     display: inline-block;
     text-align: center;
     line-height: 46px;
-    color: #ec6090;
+    color: #a160ec;
 }
 
 .clips .item h4 {
@@ -1617,7 +1630,7 @@ Profile Style
 }
 
 .clips .item span i {
-  color: #ec6090;
+  color: #a160ec;
 }
 
 .clips .item span {
